@@ -34,6 +34,7 @@ p {
 #title {
   background-color: #ffe53b;
   background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+  overflow: hidden;
 }
 
 .electro-logo {
@@ -138,10 +139,6 @@ p {
   padding: 3% 2%;
 }
 @media (max-width: 1000px) {
-  /* .big-heading{
-      text-align: center;
-  } */
-
   #nav-link {
     font: size 30%;
   }
@@ -152,6 +149,8 @@ p {
 
   #bulb {
     margin-left: 181px;
+    position: relative;
+    left: 75px;
   }
   div#navbarTogglerDemo01 {
     font-size: 2.5rem;
@@ -164,6 +163,12 @@ p {
 
   .navbar {
     padding-right: 40px;
+  }
+  .big-heading {
+    text-align: left;
+    width: 60%;
+    font-weight: 500;
+    font-size: 4rem;
   }
 }
 
